@@ -95,8 +95,8 @@ a:hover {
 }
 
 .music-image {
-  border-radius: 25%;
-  width: 25%;
+  border-radius: 30%;
+  width: 30%;
   float: right;
   margin-left: 30px;
 }
@@ -135,6 +135,19 @@ a:hover {
   margin: 40px auto 60px;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+/* mn layout (vertical) on small screens */ 
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
 .btn {
   background: #11cdd4;
   background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
@@ -161,3 +174,6 @@ a:hover {
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
 }
+
+
+
